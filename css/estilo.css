@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.form-control {
+    background-color: black;
+}
+input, select, textarea{
+    color: #ff0000 !important;
+}
+input::placeholder{
+    color: red !important;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000 !important;
+}
